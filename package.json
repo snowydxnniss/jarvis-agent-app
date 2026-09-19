@@ -1,0 +1,54 @@
+{
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "electron": "^44.4.3",
+    "electron-builder": "^26.15.3",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0",
+    "wait-on": "^9.1.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.8",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "lucide-react": "^1.47.0",
+    "playwright-core": "^1.63.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.160.0"
+  },
+  "scripts": {
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "app:dev": "vite build && electron .",
+    "app:build": "vite build && electron-builder --win portable",
+    "build": "vite build"
+  },
+  "type": "module",
+  "main": "electron/main.cjs",
+  "build": {
+    "appId": "com.jarvis.agentstudio",
+    "productName": "JARVIS Agent Studio",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  },
+  "name": "jarvis-agent-studio",
+  "version": "1.0.0",
+  "description": "JARVIS 3D Agent Studio",
+  "author": "Denizius"
+}

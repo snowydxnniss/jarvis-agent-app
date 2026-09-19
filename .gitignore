@@ -1,0 +1,11 @@
+﻿node_modules/
+dist/
+build/
+release/
+release-v2/
+workspace/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+# Projekt: 3D Agent Office Dashboard
+Du bist der leitende Full-Stack-Entwickler für dieses Projekt.
+
+## Arbeitsregeln:
+1. Lies vor jeder Code-Änderung diese Datei, um den Kontext nicht zu verlieren.
+2. Halte Architektur, verwendete Bibliotheken und API-Endpunkte in dieser Datei aktuell.
+3. Wenn Entscheidungen getroffen oder Fehler behoben werden, dokumentiere sie unten unter "Projekt-Status".
+4. Baue modularen, sauberen Code (TypeScript, React, Three.js / React Three Fiber).
+
+## Projekt-Status:
+- Initialisierung gestartet.
