@@ -1,0 +1,17 @@
+{
+  "name": "JARVIS 3D Agent Studio",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "vite-dev-server",
+      "command": "npm run dev",
+      "description": "Vite dev server for the JARVIS 3D Agent Studio web UI on http://localhost:5174"
+    }
+  ],
+  "ports": [
+    {
+      "name": "Vite dev server",
+      "port": 5174
+    }
+  ]
+}
